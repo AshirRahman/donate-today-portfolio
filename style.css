@@ -1,0 +1,267 @@
+/* header section */
+
+/* banner start */
+
+* {
+    margin: 0px 0px;
+    font-family: 'Inter'
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    background-image: url(./images/donation4.jpg);
+    background-repeat:round;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* gradient works */
+
+.inner {
+    position: absolute;
+}
+
+
+.container::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+}
+
+
+.banner-title {
+    color: white;
+    font-size: 40px;
+}
+
+.banner-description {
+    color: white;
+    margin-top: 25px;
+}
+
+
+button {
+    padding: 16px 12px;
+    background-color: #FF5959;
+    color: white;
+    border-radius: 5px;
+    border-color: #FF5959;
+    ;
+}
+
+/* banner end */
+
+.donate-today {
+    margin-top: 130px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.donate-today-description {
+    margin: 20px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+}
+.donate-now{
+    margin-top: 25px;
+}
+.money {
+    align-items: center;
+}
+
+.amount {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+.amount li {
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.selected {
+    color: #FF5959;
+    border: 2px solid #FF5959;
+    background-color: #FFEEEE;
+
+}
+
+.extra-amount {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.line {
+    max-width: 50%;
+    margin: 10px auto;
+}
+
+
+/* main section  */
+
+
+.donate-plan {
+    margin-top: 108.5px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.donate-plan p {
+    margin: 10px;
+}
+
+
+.plans-description {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    column-gap: 10px;
+
+}
+
+.icon {
+    margin-bottom: 20px;
+}
+
+.pd {
+    margin-top: 15px;
+    width: 250px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.food {
+    padding: 30px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+}
+
+.shelter {
+    padding: 30px;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+}
+
+.edu {
+    padding: 30px;
+    background: #FFF4D6;
+    border-radius: 5px;
+}
+
+.contribution {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.con-title {
+    margin-bottom: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 30px;
+
+}
+
+.paragraph1 {
+    margin-right: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.paragraph2 {
+    padding: 5px;
+    margin-left: 50px;
+    margin-top: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.con-description {
+    width: 450px;
+    height: 80px;
+
+}
+
+
+/* footer section */
+
+.updates {
+    text-align: center;
+    margin-top: 130px;
+}
+
+.update-title {
+    font-family: 'Inter';
+    font-style: normal;
+
+}
+
+.update-description {
+    margin: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+
+
+.mail section {
+    text-align: center;
+    border: solid #FFF4D6;
+    /* padding-bottom: 27px; */
+    background-color: #FFF4D6;
+    margin: 0 30%;
+    padding: 30px 0;
+
+
+}
+
+.write-mail {
+    width: 200px;
+    height: 45px;
+
+}
+
+.bottom-part {
+    margin-top: 100px;
+    background-color: #121212;
+    padding: 50px;
+    text-align: center;
+
+}
+
+.humble {
+    font-family: 'Lobster';
+    font-size: 30px;
+    color: #FF5959;
+    margin-bottom: 25px;
+}
+
+
+.doit {
+    color: #D9DBE1;
+    font-family: 'Manrope';
+    font-size: 14px;
+
+}
